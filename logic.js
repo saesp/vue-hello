@@ -8,8 +8,10 @@ const {createApp} = Vue;
 createApp({
     data() {
         return {
-            message: "Hello Vue!",
-            img: "albero.jpeg"
+            firstTitle: "Hello Vue!",
+            classTitle: "first-title",
+
+            img: "vue-js-logo.png"
         }
     }
 }).mount('#app')
