@@ -6,9 +6,10 @@
 const {createApp} = Vue;
 
 createApp({
-    data(){
+    data() {
         return {
-            message: "Hello Vue!"
+            message: "Hello Vue!",
+            img: "albero.jpeg"
         }
     }
 }).mount('#app')
